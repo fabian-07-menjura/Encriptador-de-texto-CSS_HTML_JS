@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <main class="cuerpoPagina">
+      <div >
+        <img
+          class="imagenHeader"
+          src="imagenes/imagenHeader.png"
+          alt="imagen alura"
+        />
+        <div class="divfuncion">
+          <textarea
+            class="inputTexto"
+            name="encriptar"
+            id="entrada_texto"
+            cols="30"
+            rows="10"
+            placeholder="Ingrese el texto aqui"
+          ></textarea>
+          <p class="avisoencriptar">
+            Solo letras minusculas sin acentos ni caracteres especiales
+          </p>
+          <br />
+          <ul class="botones">
+            <li>
+              <button id="encriptar" onclick="botonEncriptar()">
+                Encriptar
+              </button>
+            </li>
+            <li>
+              <button id="desencriptar" onclick="botonDesencriptar()">
+                Desencriptar
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="containerdesifrar">
+        <img
+          id="candadoCerrado"
+          src="imagenes/candadoCerrado.jpg"
+          alt="img encriptado"
+        />
+
+        <h2 id="titulo">Ningún mensaje fue encontrado</h2>
+        <h4 name="desencriptar" id="salida_texto"></h4>
+        <!-- <p>Ingresa el texto que desees encriptar o desencriptar</p> -->
+        <button id="botonCopiar" onclick="botonCopiar()">Copiar</button>
+      </div>
+    </main>
+
+    <footer>
+      <p>Derechos reservados | © 2022 Fabian Menjura</p>
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>

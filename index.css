@@ -1,0 +1,106 @@
+body {
+  background-color: #f3f5fc;
+}
+
+.imagenHeader {
+  /* margin-bottom: ; */
+  padding-left: 50px;
+  padding-right: 30px;
+}
+
+.cuerpoPagina {
+  display: flex;
+  padding-top: 2px;
+  background-color: #f3f5fc;
+}
+.divfuncion {
+  padding-left: 350px;
+  padding-right: 10px;
+  /* padding-top: 5px; */
+  padding-bottom: 20px;
+  background-color: #f3f5fc;
+}
+.divfuncion textarea {
+  font-size: 30px;
+}
+
+.inputTexto {
+  width: 550px;
+  height: 350px;
+  background-color: #f3f5fc;
+  border: none;
+}
+
+.avisoencriptar {
+  color: gray;
+  padding-bottom: 5px;
+}
+.botones {
+  display: flex;
+}
+#encriptar {
+  background-color: #052051;
+  width: 300px;
+  height: 45px;
+  color: white;
+  border-radius: 15px;
+  border-color: #052051;
+}
+#desencriptar {
+  background-color: #adb5bd;
+  width: 300px;
+  height: 45px;
+  border-radius: 15px;
+  border-color: #052051;
+  color: #052051;
+  margin-left: 15px;
+}
+.containerdesifrar {
+  background-color: white;
+  /* height: 100px; */
+  width: 300px;
+  margin-top: 8px;
+  padding-right: 30px;
+  padding-left: 30px;
+  border-radius: 2rem;
+  box-shadow: 7px 15px 5px 0 rgb(202, 199, 199);
+  margin: 0 20px 20px 0;
+}
+
+#candadoCerrado {
+  width: 100px;
+  height: 100px;
+  padding-left: 100px;
+  padding-top: 20px;
+}
+.containerdesifrar h2 {
+  text-align: center;
+  font-size: 25px;
+  padding-top: 20px;
+  color: red;
+}
+.containerdesifrar h4 {
+  width: 300px;
+  height: 200px;
+  font-size: 20px;
+  padding-top: 5px;
+  border: none;
+}
+#botonCopiar {
+  height: 30px;
+  width: 100px;
+  background-color: #052051;
+  margin-left: 110px;
+  border-radius: 1rem;
+  color: white;
+}
+
+footer {
+  height: 5vw;
+  background-color: #052051;
+}
+footer p {
+  padding-top: 30px;
+  text-align: center;
+  color: #f3f5fc;
+}
